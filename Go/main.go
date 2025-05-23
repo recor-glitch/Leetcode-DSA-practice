@@ -89,4 +89,8 @@ func main() {
 	// Reverse Integer
 	reversedInt := DSA.ReverseInteger(123)
 	fmt.Printf("My reversed integer: %d", reversedInt)
+
+	// Is Palindrome Number
+	IsPalindromeNumber := DSA.IsPalindromeNumber(121)
+	fmt.Println("My Palindrome result:", IsPalindromeNumber)
 }
