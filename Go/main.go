@@ -81,4 +81,12 @@ func main() {
 	// Find Median from Sorted Arrays
 	medianFromSortedArrays := DSA.FindMedianSortedArrays([]int{1, 3}, []int{2})
 	fmt.Printf("My Median from sorted arrays: %f", medianFromSortedArrays)
+
+	// Longest Palindrome SubString
+	longestPalindromeSubString := DSA.GetLongestPalindromeSubString("ad")
+	fmt.Printf("My longest palindrome sub stirng: %s", longestPalindromeSubString)
+
+	// Reverse Integer
+	reversedInt := DSA.ReverseInteger(123)
+	fmt.Printf("My reversed integer: %d", reversedInt)
 }
