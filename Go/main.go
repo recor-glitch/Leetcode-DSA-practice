@@ -93,4 +93,12 @@ func main() {
 	// Is Palindrome Number
 	IsPalindromeNumber := DSA.IsPalindromeNumber(121)
 	fmt.Println("My Palindrome result:", IsPalindromeNumber)
+
+	// Container With Most Water
+	containerArea := DSA.GetMaxWaterArea([]int{1, 2})
+	fmt.Println("My container with max area: ", containerArea)
+
+	// Integer to Roman
+	intToRomanString := DSA.IntegerToRoman(3999)
+	fmt.Println("Integer to Roman: ", intToRomanString)
 }
