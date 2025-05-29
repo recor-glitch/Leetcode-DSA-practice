@@ -101,4 +101,8 @@ func main() {
 	// Integer to Roman
 	intToRomanString := DSA.IntegerToRoman(3999)
 	fmt.Println("Integer to Roman: ", intToRomanString)
+
+	// Longest Common Prefix
+	longestCommonPrefix := DSA.LongestCommonPrefix([]string{"flower", "flow", "flight"})
+	fmt.Println("Longest common prefix: ", longestCommonPrefix)
 }
