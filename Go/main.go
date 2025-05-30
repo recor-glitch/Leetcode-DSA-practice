@@ -105,4 +105,8 @@ func main() {
 	// Longest Common Prefix
 	longestCommonPrefix := DSA.LongestCommonPrefix([]string{"flower", "flow", "flight"})
 	fmt.Println("Longest common prefix: ", longestCommonPrefix)
+
+	// Letter Combination of a Phone Number
+	letterCombinationPhoneNumber := DSA.LetterCombinationOfPhoneNumber("23")
+	fmt.Println("My Letter Combination of a Phone Number: ", letterCombinationPhoneNumber)
 }
