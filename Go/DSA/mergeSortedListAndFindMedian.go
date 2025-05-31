@@ -30,12 +30,12 @@ func FindMedianSortedArrays(nums1 []int, nums2 []int) float64 {
 			i--
 		} else {
 			mergedList[k] = nums2[j]
-			j-- 
+			j--
 		}
 		k--
 	}
 
-	fmt.Printf("My merged list: %+v", mergedList)
+	fmt.Println("My merged list: ", mergedList)
 
 	return float64(mergedList[len(mergedList)/2])
 }

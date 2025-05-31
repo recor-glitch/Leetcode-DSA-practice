@@ -1,7 +1,5 @@
 package LeetCode
 
-import "fmt"
-
 // find: find the largest number from where the decreasing order starts
 // given: a sorted list from increasing to decreasing order
 // example: [1, 3, 4, 6, 7, 5, 2, 1] -> 7
@@ -18,7 +16,6 @@ func GetLargestNumber(arr []int) int {
 	maxValue := -1
 
 	for i <= j {
-		fmt.Println("My loop with values: ", arr[i], arr[j])
 
 		if arr[i] > maxValue {
 			maxValue = arr[i]
@@ -29,9 +26,7 @@ func GetLargestNumber(arr []int) int {
 
 		i++
 		j--
-		fmt.Printf("My largest value: %d\n", maxValue)
 	}
 
 	return maxValue
 }
-
