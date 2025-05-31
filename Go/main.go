@@ -72,23 +72,23 @@ func main() {
 
 	// TWO SUMS
 	results := DSA.TwoSum([]int{3, 4, 6, 3, 8, 3, 2}, 9)
-	fmt.Printf("My two sum result: %+v", results)
+	fmt.Println("My two sum result: ", results)
 
 	// LONGEST SUBSTRING
 	LongestSubStringNo := DSA.LongestSubString("ABCABCAS")
-	fmt.Printf("My longest sub string: %d", LongestSubStringNo)
+	fmt.Println("My longest sub string: ", LongestSubStringNo)
 
 	// Find Median from Sorted Arrays
 	medianFromSortedArrays := DSA.FindMedianSortedArrays([]int{1, 3}, []int{2})
-	fmt.Printf("My Median from sorted arrays: %f", medianFromSortedArrays)
+	fmt.Println("My Median from sorted arrays: ", medianFromSortedArrays)
 
 	// Longest Palindrome SubString
 	longestPalindromeSubString := DSA.GetLongestPalindromeSubString("ad")
-	fmt.Printf("My longest palindrome sub stirng: %s", longestPalindromeSubString)
+	fmt.Println("My longest palindrome sub stirng: ", longestPalindromeSubString)
 
 	// Reverse Integer
 	reversedInt := DSA.ReverseInteger(123)
-	fmt.Printf("My reversed integer: %d", reversedInt)
+	fmt.Println("My reversed integer: ", reversedInt)
 
 	// Is Palindrome Number
 	IsPalindromeNumber := DSA.IsPalindromeNumber(121)
@@ -115,6 +115,6 @@ func main() {
 	fmt.Println("My three sum closest: ", threeSumClosest)
 
 	// Four Sum
-	fourSum := DSA.FourSum([]int{2, 2, 2, 2, 2}, 8)
+	fourSum := DSA.FourSum([]int{-2, -1, -1, 1, 1, 2, 2}, 0)
 	fmt.Println("My four sum: ", fourSum)
 }
