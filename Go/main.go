@@ -109,4 +109,12 @@ func main() {
 	// Letter Combination of a Phone Number
 	letterCombinationPhoneNumber := DSA.LetterCombinationOfPhoneNumber("23")
 	fmt.Println("My Letter Combination of a Phone Number: ", letterCombinationPhoneNumber)
+
+	// Three Sum Closest
+	threeSumClosest := DSA.ThreeSumClosest([]int{-1, 2, 1, -4}, 1)
+	fmt.Println("My three sum closest: ", threeSumClosest)
+
+	// Four Sum
+	fourSum := DSA.FourSum([]int{2, 2, 2, 2, 2}, 8)
+	fmt.Println("My four sum: ", fourSum)
 }
