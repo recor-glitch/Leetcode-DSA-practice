@@ -136,4 +136,8 @@ func main() {
 	// Valid Parentheses
 	isValidParentheses := DSA.IsValidParentheses("()[]{}")
 	fmt.Println("My Valid Parentheses: ", isValidParentheses)
+
+	// Merge Two Sorted Linked List
+	mergeSortedLinkedList := DSA.MergeTwoList(&DSA.ListNode{Val: 1, Next: &DSA.ListNode{Val: 2, Next: &DSA.ListNode{Val: 4}}}, &DSA.ListNode{Val: 1, Next: &DSA.ListNode{Val: 3, Next: &DSA.ListNode{Val: 4}}})
+	fmt.Println("Merged Linked List: ", mergeSortedLinkedList)
 }
