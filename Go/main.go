@@ -117,4 +117,19 @@ func main() {
 	// Four Sum
 	fourSum := DSA.FourSum([]int{-2, -1, -1, 1, 1, 2, 2}, 0)
 	fmt.Println("My four sum: ", fourSum)
+
+	// Remove Nth Node From End of a List
+	head := DSA.InitializeListNode(1)
+	head.AddToList(2)
+	head.AddToList(3)
+	head.AddToList(4)
+	head.AddToList(5)
+
+	// Before
+	head.DisplayList()
+
+	DSA.RemoveNthFromEnd(head, 2)
+
+	// After
+	head.DisplayList()
 }
