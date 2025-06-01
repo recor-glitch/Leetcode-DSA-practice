@@ -132,4 +132,8 @@ func main() {
 
 	// After
 	head.DisplayList()
+
+	// Valid Parentheses
+	isValidParentheses := DSA.IsValidParentheses("()[]{}")
+	fmt.Println("My Valid Parentheses: ", isValidParentheses)
 }
