@@ -126,12 +126,12 @@ func main() {
 	head.AddToList(5)
 
 	// Before
-	head.DisplayList()
+	DSA.DisplayList(head)
 
 	DSA.RemoveNthFromEnd(head, 2)
 
 	// After
-	head.DisplayList()
+	DSA.DisplayList(head)
 
 	// Valid Parentheses
 	isValidParentheses := DSA.IsValidParentheses("()[]{}")
@@ -140,4 +140,8 @@ func main() {
 	// Merge Two Sorted Linked List
 	mergeSortedLinkedList := DSA.MergeTwoList(&DSA.ListNode{Val: 1, Next: &DSA.ListNode{Val: 2, Next: &DSA.ListNode{Val: 4}}}, &DSA.ListNode{Val: 1, Next: &DSA.ListNode{Val: 3, Next: &DSA.ListNode{Val: 4}}})
 	fmt.Println("Merged Linked List: ", mergeSortedLinkedList)
+
+	// Swap Pairs
+	swapPairs := DSA.SwapPairs(&DSA.ListNode{Val: 1, Next: &DSA.ListNode{Val: 2, Next: &DSA.ListNode{Val: 3, Next: &DSA.ListNode{Val: 4}}}})
+	DSA.DisplayList(swapPairs)
 }

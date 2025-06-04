@@ -37,7 +37,7 @@ func InitializeListNode(val int) *ListNode {
 	}
 }
 
-func (head *ListNode) DisplayList() {
+func DisplayList(head *ListNode) {
 	for head != nil {
 		fmt.Println(head.Val)
 		head = head.Next
@@ -75,4 +75,3 @@ func RemoveNthFromEnd(head *ListNode, n int) *ListNode {
 	slow.Next = slow.Next.Next
 	return head
 }
- 
