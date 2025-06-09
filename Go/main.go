@@ -144,4 +144,8 @@ func main() {
 	// Swap Pairs
 	swapPairs := DSA.SwapPairs(&DSA.ListNode{Val: 1, Next: &DSA.ListNode{Val: 2, Next: &DSA.ListNode{Val: 3, Next: &DSA.ListNode{Val: 4}}}})
 	DSA.DisplayList(swapPairs)
+
+	// Remove Duplicates from sorted array
+	removeDuplicateFromSortedArray := DSA.RemoveDuplicateFromSortedArray([]int{0, 0, 1, 1, 1, 2, 2, 3, 3, 4})
+	fmt.Println("Result from removal of duplicate from sorted array", removeDuplicateFromSortedArray)
 }
