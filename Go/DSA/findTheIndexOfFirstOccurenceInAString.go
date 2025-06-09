@@ -20,8 +20,11 @@
 package DSA
 
 func FindTheFirstOccurrenceInAString(haystack string, needle string) int {
-	for i := range len(haystack) - len(needle) {
-		if needle == haystack[i:len(needle)] {
+	if len(needle) == 0 {
+		return 0
+	}
+	for i := 0; i <= len(haystack)-len(needle); i++ {
+		if needle == haystack[i:i+len(needle)] {
 			return i
 		}
 	}

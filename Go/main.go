@@ -148,4 +148,8 @@ func main() {
 	// Remove Duplicates from sorted array
 	removeDuplicateFromSortedArray := DSA.RemoveDuplicateFromSortedArray([]int{0, 0, 1, 1, 1, 2, 2, 3, 3, 4})
 	fmt.Println("Result from removal of duplicate from sorted array", removeDuplicateFromSortedArray)
+
+	// Find the index of the first occurence in a string
+	firstOccurenceInAString := DSA.FindTheFirstOccurrenceInAString("hello", "ll")
+	fmt.Println("The first occurence in a string: ", firstOccurenceInAString)
 }
