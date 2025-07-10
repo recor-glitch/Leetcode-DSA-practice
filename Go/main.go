@@ -152,4 +152,8 @@ func main() {
 	// Find the index of the first occurence in a string
 	firstOccurenceInAString := DSA.FindTheFirstOccurrenceInAString("hello", "ll")
 	fmt.Println("The first occurence in a string: ", firstOccurenceInAString)
+
+	// Search Insert Position
+	insertPosition := DSA.SearchInsertPosition([]int{1, 3, 5, 6}, 5)
+	fmt.Println("The insert position for the value: ", insertPosition)
 }
